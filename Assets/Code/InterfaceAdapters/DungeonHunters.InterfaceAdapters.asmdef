@@ -1,0 +1,16 @@
+{
+    "name": "DungeonHunters.InterfaceAdapters",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1199e6e8a2a7bbe41b72029332e77195"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
