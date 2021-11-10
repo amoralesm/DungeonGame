@@ -27,8 +27,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           lfs: false
-      #- name: Free disk space
-      #  run: .github/workflows/scripts/free_disk_space.sh
+      - name: Free disk space
+        run: git update-index --chmod=+x ./.github/workflows/scripts/free_disk_space.sh
       - name: Create LFS file list
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
       - name: Restore LFS cache
